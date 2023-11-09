@@ -1,0 +1,60 @@
+
+.local_expert {
+    padding: 0 72px 120px 72px;
+}
+.section_title {
+    color: #141D24;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    margin-bottom: 40px;
+}
+
+.expert_container {
+    display: flex;
+    justify-content: center;
+}
+
+.relative_wrapper {
+    position: relative;
+}
+
+.expert_container .textBubble img {
+    position: absolute;
+}
+
+.expert_container .textBubble .textBubbleContent {
+    position: absolute;
+    width: 212px;
+    color: #141D24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 20px;
+}
+
+.textBubble .imageLeft {
+    top: 52px;
+    left: -70px;
+}
+
+.textBubble .imageRight {
+    bottom: 52px;
+    right: -70px;
+}
+
+.textBubble .pos_left {
+    left: -70px;
+    top: 52px;
+}
+
+.textBubble .pos_right {
+    bottom: 52px;
+    right: -70px;
+}
+.relative_wrapper .callcenter_img {
+    height: 336px;
+}

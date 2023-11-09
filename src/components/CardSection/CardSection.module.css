@@ -1,0 +1,19 @@
+.card_section {
+    padding: 0 72px 120px 72px;
+}
+.section_title {
+    color: #141D24;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    margin-bottom: 40px;
+}
+
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(3, 416px);
+    justify-content: space-around;
+    row-gap: 40px;
+}

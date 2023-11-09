@@ -1,0 +1,70 @@
+.search-field input {
+    padding: 8px 8px 8px 24px;
+    height: 56px;
+    border-radius: 99px;
+    border: 1px solid  #C9D2DA;
+    background: #FFF;
+    outline: 0;
+    color: #97A5B2;
+    font-size: 16px;
+    line-height: 24px;
+}
+.search-field {
+    position: relative;
+}
+.search-field button {
+    position: absolute;
+    border-radius: 24px;
+    background: #4A21EF;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.joinus--section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0;
+}
+.joinus-wrapper {
+    max-width: 636px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.joinus-wrapper h1 {
+    color: #141D24;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    margin-bottom: 16px;
+}
+.joinus-wrapper p {
+    color: #141D24;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-bottom: 40px;
+}
+.joinus-wrapper .search-field {
+    width: 360px;
+}
+.joinus-wrapper .search-field input{
+    width: 360px;
+}
+.joinus-wrapper .search-field button {
+    right: 8px;
+    top: 8px;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    /* width: 60px;
+    height: 24px; */
+}

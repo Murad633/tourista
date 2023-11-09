@@ -1,0 +1,135 @@
+.video_placeholder {
+    border-radius: 20px;
+    background: url(./assets/Homepage.gif);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 672px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg_wrapper {
+    padding: 0 54px;
+}
+
+.bg_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg_items .bg_title {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; 
+    margin-bottom: 16px;
+}
+
+.bg_items .bg_subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    margin-bottom: 60px;
+}
+
+.bg_items .search_field input {
+    width: 392px;
+}
+
+.search_field input {
+    padding: 8px 8px 8px 24px;
+    height: 56px;
+    border-radius: 99px;
+    border: 1px solid #C9D2DA;
+    background: #FFF;
+    outline: 0;
+    color: #97A5B2;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.search_field {
+    position: relative;
+}
+
+.bg_items .search_field button {
+    right: 6px;
+    top: 8px;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+}
+
+.search_field button {
+    position: absolute;
+    border-radius: 24px;
+    background: #4A21EF;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+.local_expert {
+    padding: 0 72px 120px 72px;
+}
+.section_title {
+    color: #141D24;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    margin-bottom: 40px;
+}
+
+.expert_container {
+    display: flex;
+    justify-content: center;
+}
+
+.relative_wrapper {
+    position: relative;
+}
+
+.expert_container .textBubble img {
+    position: absolute;
+}
+
+.expert_container .textBubble .textBubbleContent {
+    position: absolute;
+    width: 212px;
+    color: #141D24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 20px;
+}
+
+.textBubble .imageLeft {
+    top: 52px;
+    left: -70px;
+}
+
+.textBubble .imageRight {
+    bottom: 52px;
+    right: -70px;
+}
+
+.textBubble .pos_left {
+    left: -70px;
+    top: 52px;
+}
+
+.textBubble .pos_right {
+    bottom: 52px;
+    right: -70px;
+}

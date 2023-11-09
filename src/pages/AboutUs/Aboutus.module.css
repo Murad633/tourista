@@ -1,0 +1,24 @@
+.about_section {
+    padding: 120px 0;
+    display: flex;
+    justify-content: center;
+}
+.about_section .about_body {
+    width: 636px;
+}
+.about_body h1 {
+    color: #141D24;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 125% */
+    margin-bottom: 16px;
+}
+.about_body p {
+    color: #141D24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}

@@ -1,0 +1,28 @@
+.looking_section {
+    background: #4A21EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 72px 0;
+}
+.looking_section div span {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 166.667% */
+    margin-right: 24px;
+}
+
+.looking_section div button {
+    cursor: pointer;
+    border: 0;
+    border-radius: 24px;
+    background: #FFF;
+    padding: 12px 24px;
+    color: #4A21EF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}

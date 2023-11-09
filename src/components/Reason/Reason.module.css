@@ -1,0 +1,32 @@
+.reason_card {
+    display: flex;
+    min-width: 416px;
+    padding: 32px;
+    align-items: flex-start;
+    border-radius: 20px;
+    background:#F5F7FA;
+}
+.reason_card div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 276px;
+}
+.reason_card img {
+    padding: 0 18px;
+}
+.reason_card .reason_card_title {
+    color: #141D24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+    max-width: 276px;
+}
+.reason_card .reason_card_text{
+    color: #141D24;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}

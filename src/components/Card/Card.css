@@ -1,0 +1,112 @@
+.card--wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.img-part {
+    position: relative;
+}
+.img-status1 {
+    position: absolute;
+    width: 100%;
+    top: 12px;
+    padding: 0 12px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img-status2 {
+    position: absolute;
+    width: 100%;
+    top: 12px;
+    padding: 0 12px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.img-loved {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    justify-content: center;
+    gap: 8px;
+    background-color: #4A21EF;
+    border-radius: 24px;
+}
+.img-loved span {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+}
+.img-save {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #F5F7FA;
+    background-color: #fff;
+    border-radius: 24px;
+}
+
+.card--text {
+    padding: 16px;
+    border-radius: 0px 0px 15px 15px;
+    border-right: 1px solid #E3E7EB;
+    border-bottom: 1px solid #E3E7EB;
+    border-left: 1px solid #E3E7EB;
+    background: #FFF;
+}
+.card-trip {
+    text-transform: uppercase;
+    color: #5E6F7D;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 133.333% */
+    margin-bottom: 8px;
+}
+.card-title {
+    color: #141D24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    margin-bottom: 16px;
+}
+.trip-days {
+    color: #5E6F7D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+.trip-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trip-value {
+    color: #141D24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+.price-from {
+    color: #5E6F7D;
+    text-align: right;
+    margin-right: 4px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+.card-link {
+    text-decoration: none;
+}
+.card-link:hover {
+    text-decoration: underline;
+}

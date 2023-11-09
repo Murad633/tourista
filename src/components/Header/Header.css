@@ -1,0 +1,84 @@
+.header--secondary {
+    background-color: #F5F7FA;
+}
+.header--secondary .inner--container ul li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+.header--secondary .inner--container .nav-item {
+    color: #141D24;
+    text-decoration: none;
+}
+.header--secondary .inner--container .nav-item:hover {
+    color: #000000;
+    text-decoration:underline;
+}
+.header--secondary .inner--container {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    padding: 0 72px;
+}
+.header--secondary .inner--container span {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.header--main .inner--container {
+    display: flex;
+    padding: 0 72px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header--main .inner--container ul li {
+    display: inline;
+    margin-right: 32px;
+}
+.header--main .inner--container ul li .nav-item {
+    color: #0F0339;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+}
+.header--main .inner--container ul li .nav-item:hover {
+    text-decoration: underline;
+}
+.header--main .nav-btn {
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+}
+.nav-btn:hover {
+    text-decoration: underline;
+}
+.btn-primary {
+    border: 1px solid #fff;
+    background: #4A21EF;
+    color: #fff;
+    border: 0;
+}
+.btn-outline {
+    border: 1px solid #4A21EF;
+    background-color: #fff;
+    color: #4A21EF;
+}
+.buttons {
+    display: flex;
+    gap: 16px;
+}

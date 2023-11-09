@@ -1,0 +1,92 @@
+.bg_wrapper {
+    padding: 0 54px;
+}
+.video__placeholder {
+    border-radius: 20px;
+    background: url(./assets/Destinations.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-color: 100% 100%; */
+    width: 100%;
+    height: 672px;
+    display: flex;
+    justify-content: center;
+}
+.video__placeholder .video_text {
+    color: #fff;
+    text-align: center;
+    margin-top: 200px;
+}
+.video_text h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+    margin-bottom: 16px;
+}
+.video_text p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
+.destinations__section {
+    display: flex;
+    padding: 120px 0;
+    justify-content: center;
+}
+.destinations__container {
+    display: flex;
+    gap: 24px;
+} 
+.destinations__container h3 {
+    color: #4A21EF;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 171.429% */
+    margin-bottom: 24px;
+}
+.destinations__container ul li {
+    list-style: none;
+    margin-bottom: 16px;
+}
+.destinations__container .list_item {
+    text-decoration: none;
+    color: #141D24;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    
+}
+.destinations__container .list_item:hover {
+    text-decoration: underline;
+}
+.continent_section {
+    min-width: 196px;
+    border-right: 1px solid #E3E7EB;
+}
+.destinations__container .continent_section:last-child {
+    border-right: 0;
+}
+.topDestinations_section {
+    padding: 0 72px 120px 72px;
+}
+.topDestinations_section h1 {
+    text-align: center;
+    color: #141D24;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 133.333% */
+    margin-bottom: 40px;
+}
+.card_container {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}

@@ -1,0 +1,31 @@
+.bg_section {
+    padding: 0 54px;
+}
+.bg_placeholder {
+    border-radius: 20px;
+    /* background: url(./assets/aboutUsBG.svg); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: 384px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg_placeholder div {
+    text-align: center;
+    color: #fff;
+}
+.bg_placeholder div h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 125% */
+    margin-bottom:16px;
+}
+.bg_placeholder div p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 150% */
+}
