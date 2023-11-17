@@ -4,7 +4,7 @@
     height: 100vh;
 }
 .background_container {
-    background: url(./assets/planeBG.svg);
+    background: url(../../../public/assets/planeBG.png);
     background-repeat: no-repeat;
     background-size: cover;
 }

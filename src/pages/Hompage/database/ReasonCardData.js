@@ -1,18 +1,18 @@
 const ReasonCardData = [
     {
         id: 1,
-        img: require("../assets/frameMap.svg").default,
+        img: process.env.PUBLIC_URL + "../assets/frameMap.svg",
         title: "More than 149 travel titles currently in print"
     
     },
     {
         id: 2,
-        img: require("../assets/frameBag.svg").default,
+        img: process.env.PUBLIC_URL + "../assets/frameBag.svg",
         title: "Supporting millions of travellers since 1982"
     },
     {
         id: 3,
-        img: require("../assets/frameUserLike.svg").default,
+        img: process.env.PUBLIC_URL + "../assets/frameUserLike.svg",
         title: "Our utstanding customer satisfaction"
     }
 ]

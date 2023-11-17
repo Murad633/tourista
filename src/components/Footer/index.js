@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import logo from './Logo.svg';
 import { FooterData } from './FooterData';
 import './Footer.css'
 export function Footer() {
@@ -10,7 +9,7 @@ export function Footer() {
         <footer className="footer--section">
             <div className="footer-container">
                 <div className="footer--body">
-                    <img src={logo} alt="" />
+                    <img src='/assets/Logo.svg' alt="" />
                     <p className='logo-text' >Discover the world's wonders and let us be your trusted guide to extraordinary destinations.</p>
                     <p className='copyright' >© Copyright 2023 Tourista Ltd. All Rights Reserved.</p>
                 </div>

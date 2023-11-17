@@ -5,7 +5,6 @@ import { WhyUs } from '../../components/WhyUS/WhyUS'
 import { Looking } from '../../components/Looking/Looking'
 import { JoinUs } from '../../components/JoinUs/JoinUs'
 import { Review } from '../../components/Review/Review'
-import bgImage from './assets/review.svg'
 import { CardSection } from '../../components/CardSection/CardSection'
 import TrendingData from './database/TrendingData'
 import BrandData from './database/BrandData'
@@ -21,7 +20,7 @@ export function Home() {
             <CardSection card={Card} sectionTitle={"Brand new trips"} dataBase={BrandData}/>
             <WhyUs headingText={"Why us?"} dataBase={ReasonCardData} />
             <LocalExpert/>
-            <Review bgImage={bgImage} 
+            <Review bgImage={'/assets/review.png'} 
                 quote={'“Tiago put together an epic itinerary for me and my friends. He showed us some hidden hiking trails and amazing local food spots.He even met us for a coffee to make sure we had everything we needed.'}
                 expert={"Tiago"}
                 testimonialInfo={"Charlie, rappelling down a 370-foot waterfall"}

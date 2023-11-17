@@ -1,7 +1,7 @@
 const AsiaData = [
     {
         id: 1,
-        image: require("../assets/asiaChina.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/asiaChina.png",
         sparkles: null,
         loved: null,
         cardTrip: "CHINA TRIP",
@@ -12,7 +12,7 @@ const AsiaData = [
     },
     {
         id: 2,
-        image: require("../assets/asiaThailand.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/asiaThailand.png",
         sparkles: null,
         loved: null,
         cardTrip: "THAILAND TRIP",
@@ -23,7 +23,7 @@ const AsiaData = [
     },
     {
         id: 3,
-        image: require("../assets/asiaTaiwan.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/asiaTaiwan.png",
         sparkles: null,
         loved: null,
         cardTrip: "TAIWAN  TRIP",

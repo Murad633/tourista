@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
-import cardImg from '../assets/cardImg.svg'
 import style from '../Italy.module.css';
 import { TripCard } from '../../../components/TripCard/TripCard';
 export function ItalyMap() {
@@ -19,7 +18,7 @@ export function ItalyMap() {
                 </div>
             </header>
             <div className={style.map_section_card}>
-               <TripCard image={cardImg} title={"Have the drive of your life on the cliff roads of the AAmalfi Coast"} />
+               <TripCard image={'/assets/cardImg.png'} title={"Have the drive of your life on the cliff roads of the AAmalfi Coast"} />
             </div>
         </section>
     )

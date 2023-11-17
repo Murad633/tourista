@@ -1,7 +1,7 @@
 const BrandData = [
     {
         id: 1,
-        image: require("../assets/brandSpain.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/brandSpain.png",
         sparkles: null,
         loved: null,
         cardTrip: "SPAIN TRIP",
@@ -12,7 +12,7 @@ const BrandData = [
     },
     {
         id: 2,
-        image: require("../assets/brandItaly.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/brandItaly.png",
         sparkles: null,
         loved: null,
         cardTrip: "ITALY TRIP",
@@ -23,7 +23,7 @@ const BrandData = [
     },
     {
         id: 3,
-        image: require("../assets/brandTurkey.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/brandTurkey.png",
         sparkles: null,
         loved: null,
         cardTrip: "TURKEY TRIP",

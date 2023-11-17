@@ -1,7 +1,7 @@
 const TopDestinationsData = [
     {
         id: 1,
-        image: require("../assets/topItaly.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/topItaly.png",
         sparkles: null,
         loved: null,
         cardTrip: "ITALY TRIP",
@@ -12,7 +12,7 @@ const TopDestinationsData = [
     },
     {
         id: 2,
-        image: require("../assets/topPortugal.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/topPortugal.png",
         sparkles: null,
         loved: null,
         cardTrip: "PORTUGAL TRIP",
@@ -23,7 +23,7 @@ const TopDestinationsData = [
     },
     {
         id: 3,
-        image: require("../assets/topTurkey.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/topTurkey.png",
         sparkles: null,
         loved: null,
         cardTrip: "TURKEY TRIP",
@@ -34,7 +34,7 @@ const TopDestinationsData = [
     },
     {
         id: 4,
-        image: require("../assets/topIceland.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/topIceland.png",
         sparkles: null,
         loved: null,
         cardTrip: "ICELAND TRIP",
@@ -45,7 +45,7 @@ const TopDestinationsData = [
     },
     {
         id: 5,
-        image: require("../assets/topCostaRica.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/topCostaRica.png",
         sparkles: null,
         loved: null,
         cardTrip: "COSTA RICA TRIPP",
@@ -56,7 +56,7 @@ const TopDestinationsData = [
     },
     {
         id: 6,
-        image: require("../assets/topArgentina.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/topArgentina.png",
         sparkles: null,
         loved: null,
         cardTrip: "ARGENTINA TRIP",

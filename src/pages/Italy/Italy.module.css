@@ -3,7 +3,7 @@
 }
 .bg_placeholder {
     border-radius: 20px;
-    background: url(./assets/Italy.svg);
+    background: url(../../../public/assets/Italy.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -81,7 +81,7 @@
 
 
 .map_section {
-    background: url(./assets/MapItaly.svg);
+    background: url(../../../public/assets/MapItaly.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

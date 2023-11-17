@@ -1,7 +1,7 @@
 const EuropeData = [
     {
         id: 1,
-        image: require("../assets/europeIceland.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/europeIceland.png",
         sparkles: null,
         loved: null,
         cardTrip: "ICELAND TRIP",
@@ -12,7 +12,7 @@ const EuropeData = [
     },
     {
         id: 2,
-        image: require("../assets/europeScottish.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/europeScottish.png",
         sparkles: null,
         loved: null,
         cardTrip: "SCOTLAND TRIP",
@@ -23,7 +23,7 @@ const EuropeData = [
     },
     {
         id: 3,
-        image: require("../assets/europeAtlantic.svg").default,
+        image: process.env.PUBLIC_URL + "../assets/europeAtlantic.png",
         sparkles: null,
         loved: null,
         cardTrip: "PORTUGAL TRIP",

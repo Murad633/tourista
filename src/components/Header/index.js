@@ -1,6 +1,4 @@
 import {Link } from 'react-router-dom';
-import arrow from './Unfold_More.svg';  
-import logo from './Logo.svg'
 
 import './Header.css'
 
@@ -15,7 +13,7 @@ export function Header() {
                         <li><Link className='nav-item' to='/blog'>Blog</Link></li>
                         <li><Link className='nav-item' to='/contactus'>Contact us</Link></li>
                     </ul>
-                    <span>US$ <img src={arrow}  alt="" /></span>
+                    <span>US$ <img src='/assets/Unfold_More.svg'  alt="" /></span>
                 </div>
             </div>
             <div className="header--main">
@@ -25,7 +23,7 @@ export function Header() {
                         <li><Link to="/" className='nav-item' >Private trips</Link></li>
                     </ul>
                     <Link to="/">
-                        <img src={logo} alt="" />
+                        <img src='/assets/Logo.svg' alt="" />
                     </Link>
                     <div className='buttons'>
                         <Link className='nav-btn btn-primary'>I'm Feeling Lucky</Link>

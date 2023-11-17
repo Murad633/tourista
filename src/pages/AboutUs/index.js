@@ -4,12 +4,11 @@ import { Looking } from '../../components/Looking/Looking'
 import { WhyUs } from '../../components/WhyUS/WhyUS'
 import ReasonCardData from '../Hompage/database/ReasonCardData'
 import { JoinUs } from "../../components/JoinUs/JoinUs";
-import bgImage from './assets/aboutUsBG.svg'
 import style from './Aboutus.module.css'
 export function AboutUs() {
     return(
         <>
-            <BgSection heading={"About us"} title={"Discover Our Passion for Travel and Adventure."} bgImage={bgImage} />
+            <BgSection heading={"About us"} title={"Discover Our Passion for Travel and Adventure."} bgImage={'assets/aboutUsBG.png '} />
             <section className={style.about_section}>
                 <div className={style.about_body}>
                     <h1>Changing how the world travels</h1>

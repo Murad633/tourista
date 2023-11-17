@@ -1,8 +1,8 @@
 const TrendingData = [
     {
         id: 1,
-        image: require("../assets/tripSpain.svg").default,
-        sparkles: require("../assets/sparkles.svg").default,
+        image: process.env.PUBLIC_URL + '/assets/tripSpain.png',
+        sparkles: process.env.PUBLIC_URL + '/assets/sparkles.svg',
         loved: "Loved by over 40s",
         cardTrip: "SPAIN TRIP",
         cardTitle: "Magical Madrid To Marrakech By Train",
@@ -12,8 +12,8 @@ const TrendingData = [
     },
     {
         id: 2,
-        image: require("../assets/tripItaly.svg").default,
-        sparkles: require("../assets/sparkles.svg").default,
+        image: process.env.PUBLIC_URL + "/assets/tripItaly.png",
+        sparkles: process.env.PUBLIC_URL + '/assets/sparkles.svg',
         loved: "Loved by couples",
         cardTrip: "ITALY TRIP",
         cardTitle: "Spectacular Sicily",
@@ -23,7 +23,7 @@ const TrendingData = [
     },
     {
         id: 3,
-        image: require("../assets/tripTurkey.svg").default,
+        image: process.env.PUBLIC_URL + "/assets/tripTurkey.png",
         sparkles: null,
         loved: null,
         cardTrip: "TURKEY TRIP",

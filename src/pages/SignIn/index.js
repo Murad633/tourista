@@ -2,7 +2,6 @@ import style from './SignIn.module.css'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye, faEyeSlash } from '@fortawesome/fontawesome-free-regular';
-import logo from './assets/Logo.svg'
 import { useState } from 'react';
 import { PlaneBg } from './components/PlaneBg';
 import { EmailField } from './components/EmailField';
@@ -21,7 +20,7 @@ export function SignIn() {
                 <PlaneBg />
                 <div style={{justifyContent: "space-between"}} className={style.login_container}>
                     <header className={style.login_header}>
-                        <img src={logo} alt="" />
+                        <Link to="/" ><img src='/assets/Logo.svg' alt="" /></Link>
                     </header>
                     <main className={style.main_section}>
                         <div className={style.form_section}>

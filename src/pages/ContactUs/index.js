@@ -1,5 +1,4 @@
 import { BgSection } from '../../components/BgSection/BgSection';
-import bgImage from './assets/contactUsBG.svg';
 import style from './ContactUs.module.css';
 import { Link } from 'react-router-dom';
 import { Looking } from '../../components/Looking/Looking'
@@ -7,7 +6,7 @@ import { JoinUs } from '../../components/JoinUs/JoinUs'
 export function ContactUs() {
     return(
         <>
-            <BgSection heading={"Contact us"} title={"Your Journey Begins with a Conversation - Reach Out to Us Today!"} bgImage={bgImage} />
+            <BgSection heading={"Contact us"} title={"Your Journey Begins with a Conversation - Reach Out to Us Today!"} bgImage={'/assets/contactUsBG.png'} />
             <section className={style.contacts_section}>
                 <div className={style.contacts_container}>
                     <div className={style.commercial_contacts}>

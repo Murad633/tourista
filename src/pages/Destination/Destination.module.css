@@ -3,7 +3,7 @@
 }
 .video__placeholder {
     border-radius: 20px;
-    background: url(./assets/Destinations.gif);
+    background: url(../../../public/assets/Destinations.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
